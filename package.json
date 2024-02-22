@@ -1,0 +1,24 @@
+{
+	"name": "typescript-web-template",
+	"version": "",
+	"description": "",
+	"author": "Chen-I Lim",
+	"main": "app.ts",
+	"scripts": {
+		"clean": "rm -rf dist && rm -rf build && rm -rf pack && rm -rf debug",
+		"lint": "eslint -c .eslintrc.js --ext .ts .",
+		"app": "tsx app.ts"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^6.18.1",
+		"@typescript-eslint/parser": "^6.18.1",
+		"eslint": "^8.56.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-import-resolver-typescript": "^3.6.1",
+		"eslint-plugin-import": "^2.29.1",
+		"ts-loader": "^9.5.1",
+		"tsx": "^4.7.1",
+		"typescript": "^5.3.3"
+	}
+}
