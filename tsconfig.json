@@ -9,6 +9,7 @@
 		"outDir": "./debug",
 		"baseUrl": ".",
 		"moduleResolution": "node",
+		"types": ["node"],
 		"paths": {
 			"*": [
 				"node_modules/*"
