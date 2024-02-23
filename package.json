@@ -7,7 +7,7 @@
 	"type": "module",
 	"scripts": {
 		"clean": "rm -rf dist && rm -rf build && rm -rf pack && rm -rf debug",
-		"lint": "eslint -c .eslintrc.js --ext .ts .",
+		"lint": "eslint -c .eslintrc.json --ext .ts .",
 		"app": "tsx app.ts"
 	},
 	"devDependencies": {
